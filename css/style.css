@@ -1,0 +1,83 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body{
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+	background-color: #FFFFFF;
+}
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+	font-family: "American Typewriter" ;
+}
+
+
+.active{
+	background-color: #CBC3E3;
+	font-weight: bold;
+	text-align: center;
+	border: 2px solid #A679CA;
+}
+
+.active a{
+	text-decoration: none;;
+}
+
+/*Style the images*/
+img{
+    width: 325px;
+    border: 4px solid rgb(112, 47, 233);
+    padding: 0px;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+img:hover:nth-child(2n){
+	filter: grayscale() blur(1px);
+	border: solid; 
+} 
+
+
+/*Make the h2 heading match h1*/
+h2{
+	font-size: 1.5em; 
+	font-weight: normal;
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+p, h1, h2 {
+    padding: 10px;
+}
+
+/*Add borders around the main components and some
+space too*/
+main{
+	border: 2px dashed grey;
+	margin: 10px 0;
+}
+
+header{
+	border: 5px solid rgb(219, 139, 243);
+	margin: 10px 0;
+}
+
+
+/*Change the styling for all of the list 
+items in the nav section*/
+nav ul{
+	background-color: #FFFFFF;
+	font-family: "Lucida Console";
+	padding:10px;
+	width:25%;
+	border: 0px solid rgb(112, 47, 233);
+	display: inline-block;
+}
+
+
+
+/*Added this so the links stay the same color*/
+/* a:visited{color:#0000FF} */
+
